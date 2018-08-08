@@ -1,7 +1,7 @@
 import tensorflow as tf
 import keras.backend as K
 from keras.engine.topology import Layer
-import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+import pandas as pd 
 import numpy as np
 
 class Cell_TM(Layer):
